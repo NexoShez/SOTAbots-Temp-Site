@@ -14,6 +14,17 @@ body {
   overflow:visible;
 }
 
+button img, button i {
+  margin-right: 12px;
+  width: auto;
+  height: 20px;
+  border-radius: 0;
+}
+/* 
+button {
+  max-height: 48px;
+} */
+
 /* Dropdown button */
 .dropdown .dropbtn {
   /* font-size: 16px; */
@@ -324,12 +335,12 @@ h3 {
   display: flex;
   margin: 24px 0 24px 0;
 }
-.comp img {
-  width: 50%;
+/* .comp img {
+  width: 50%; 
   overflow: hidden;
   border-radius: 12px;
   object-fit: cover;
-}
+} */
 .comp div {
   width: 50%;
 }
@@ -337,6 +348,9 @@ h3 {
   width: 100%;
   height: auto;
   padding: 10px;
+}
+.comp div a {
+  text-decoration: none;
 }
 
 /* Darker background on mouse-over */
