@@ -355,13 +355,16 @@ h3 {
 
 @media screen and (max-width:1206px) {
   .tbt header {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .tbtext {
+    margin-top: 35px;
   }
 }
 
 @media screen and (max-width:525px) {
   .tbt header {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
@@ -400,6 +403,14 @@ h3 {
     background-color: white;
     position: sticky;
     top: 0;
+}
+
+.topbar img {
+  min-width: 20px;
+  max-width: 145px;
+  height: min-content;
+  align-self: center;
+  z-index: 0;
 }
 .clip {
   border-bottom-left-radius: 20px;
@@ -442,7 +453,7 @@ h3 {
     width: 100%;
     transition: .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-left: 20%;
     padding-right: 20%;
 }

@@ -37,9 +37,11 @@ function scrollFunction() {
     // console.log("disappear");
     document.getElementById("topbar").style.height = "0px";
     document.getElementById("tbtext").style.opacity = "0";
+    document.getElementById("tbimg").style.opacity = "0";
   } else {
     document.getElementById("topbar").style.height = "160px";
     document.getElementById("tbtext").style.opacity = "1";
+    document.getElementById("tbimg").style.opacity = "1";
     // console.log("appear");
   }
 }
