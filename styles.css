@@ -478,12 +478,15 @@ li {
     position: relative;
     margin-top: 25px;
     width: 60vw ;
-    height:60vh;
+    height: auto;
+    min-height: 480px;
+    max-height: 35%;
+    
     margin-left: 20%;
-    margin-bottom: 200px;
+    margin-bottom: 5vh;
   }
 
-  @media screen and (max-width: 1650px) {
+  /* @media screen and (max-width: 1650px) {
     .container {
       height: 30vh;
     }
@@ -493,7 +496,7 @@ li {
     .container {
       height: 17vh;
     }
-  }
+  } */
   
   /* Hide the images by default */
   .mySlides {
